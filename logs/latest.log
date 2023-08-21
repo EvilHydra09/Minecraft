@@ -1,730 +1,132 @@
-[08:28:20] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08:28:24] [ServerMain/INFO]: Loaded 7 recipes
-[08:28:25] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[08:28:25] [Server thread/WARN]: ****************************
-[08:28:25] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[08:28:25] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[08:28:25] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[08:28:25] [Server thread/WARN]: ****************************
-[08:28:25] [Server thread/INFO]: Loading properties
-[08:28:26] [Server thread/INFO]: This server is running Paper version git-Paper-132 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: eb8f2bb)
-[08:28:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[08:28:26] [Server thread/INFO]: Using 4 threads for Netty based IO
-[08:28:26] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[12:50:04] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:50:09] [ServerMain/INFO]: Loaded 7 recipes
+[12:50:10] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[12:50:10] [Server thread/WARN]: ****************************
+[12:50:10] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[12:50:10] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[12:50:10] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[12:50:10] [Server thread/WARN]: ****************************
+[12:50:10] [Server thread/INFO]: Loading properties
+[12:50:10] [Server thread/INFO]: This server is running Paper version git-Paper-145 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 281855c)
+[12:50:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:50:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:50:11] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[08:28:27] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[08:28:27] [Server thread/INFO]: Default game type: SURVIVAL
-[08:28:27] [Server thread/INFO]: Generating keypair
-[08:28:28] [Server thread/INFO]: Starting Minecraft server on *:25565
-[08:28:28] [Server thread/INFO]: Using epoll channel type
-[08:28:28] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[08:28:28] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[08:28:30] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b69-492be77)
-[08:28:31] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[08:28:31] [Server thread/INFO]: [floodgate] Took 1,516ms to boot Floodgate
-[08:28:31] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.1.2-SNAPSHOT
-[08:28:33] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[08:28:33] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[08:28:33] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.92
-[08:28:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[08:28:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[08:28:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[08:28:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[08:28:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[08:28:33] [Server thread/INFO]: Preparing level "world"
-[08:28:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[08:28:35] [Server thread/INFO]: Time elapsed: 680 ms
-[08:28:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[08:28:35] [Server thread/INFO]: Time elapsed: 196 ms
-[08:28:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[08:28:35] [Server thread/INFO]: Time elapsed: 176 ms
-[08:28:35] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b69-492be77)
-[08:28:37] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.2-SNAPSHOT
-[08:28:37] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.92
-[08:28:38] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[08:28:38] [Server thread/INFO]: [Geyser-Spigot] 
-[08:28:38] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.2-SNAPSHOT (git-master-661a9b4)
-[08:28:38] [Server thread/INFO]: [Geyser-Spigot] 
-[08:28:38] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[08:28:56] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[08:28:56] [Server thread/INFO]: [Geyser-Spigot] Done (18.909s)! Run /geyser help for help!
-[08:28:57] [Server thread/INFO]: Running delayed init tasks
-[08:28:57] [Server thread/INFO]: Done (31.498s)! For help, type "help"
-[08:28:57] [Server thread/INFO]: Timings Reset
-[08:29:58] [User Authenticator #0/INFO]: UUID of player EvilHydra is 16bbccae-6c08-3ac4-bd5e-c1a24cd48452
-[08:29:58] [Server thread/INFO]: EvilHydra joined the game
-[08:29:58] [Server thread/INFO]: EvilHydra[/103.185.161.36:54160] logged in with entity id 195 at ([world]83.13838177991975, 64.0, 340.7410800570396)
-[08:30:20] [Server thread/INFO]: Made EvilHydra a server operator
-[08:30:33] [Server thread/INFO]: EvilHydra issued server command: /chunky
-[08:31:24] [Server thread/INFO]: EvilHydra issued server command: /chunky center
-[08:31:37] [Server thread/INFO]: EvilHydra issued server command: /chunky world world
-[08:31:53] [Server thread/INFO]: EvilHydra issued server command: /chunky radius 1000
-[08:32:07] [Server thread/INFO]: EvilHydra issued server command: /chunky start
-[08:32:07] [Thread-22/INFO]: [Chunky] Task running for world. Processed: 4 chunks (0.02%), ETA: 0:07:23, Rate: 36.4 cps, Current: 3, 0
-[08:32:08] [Thread-217/INFO]: [Chunky] Task running for world. Processed: 199 chunks (1.23%), ETA: 0:01:28, Rate: 179.1 cps, Current: 5, 13
-[08:32:09] [Thread-512/INFO]: [Chunky] Task running for world. Processed: 494 chunks (3.06%), ETA: 0:01:06, Rate: 233.5 cps, Current: 11, 16
-[08:32:10] [Thread-674/INFO]: [Chunky] Task running for world. Processed: 656 chunks (4.07%), ETA: 0:01:13, Rate: 210.3 cps, Current: 25, 28
-[08:32:11] [Thread-887/INFO]: [Chunky] Task running for world. Processed: 869 chunks (5.39%), ETA: 0:01:12, Rate: 210.6 cps, Current: 16, 10
-[08:32:15] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1062 chunks (6.58%), ETA: 0:01:58, Rate: 127.1 cps, Current: 1, 0
-[08:32:19] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1063 chunks (6.59%), ETA: 0:10:13, Rate: 24.5 cps, Current: 36, 7
-[08:32:31] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1065 chunks (6.60%), ETA: 0:31:45, Rate: 7.9 cps, Current: 37, 3
-[08:32:33] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1073 chunks (6.65%), ETA: 1:10:29, Rate: 3.6 cps, Current: 38, 2
-[08:32:36] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1087 chunks (6.74%), ETA: 0:53:47, Rate: 4.7 cps, Current: 38, 7
-[08:32:37] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1111 chunks (6.89%), ETA: 0:32:33, Rate: 7.7 cps, Current: 46, 0
-[08:32:38] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1112 chunks (6.89%), ETA: 0:38:29, Rate: 6.5 cps, Current: 47, 0
-[08:32:39] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1113 chunks (6.90%), ETA: 0:44:46, Rate: 5.6 cps, Current: 44, 2
-[08:32:41] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1118 chunks (6.93%), ETA: 0:40:47, Rate: 6.1 cps, Current: 44, 4
-[08:32:42] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1122 chunks (6.96%), ETA: 0:42:40, Rate: 5.9 cps, Current: 45, 4
-[08:32:43] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1130 chunks (7.01%), ETA: 0:43:05, Rate: 5.8 cps, Current: 43, 5
-[08:32:44] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1142 chunks (7.08%), ETA: 0:39:15, Rate: 6.4 cps, Current: 47, 4
-[08:32:46] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1151 chunks (7.14%), ETA: 0:39:35, Rate: 6.3 cps, Current: 45, 7
-[08:32:47] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1157 chunks (7.17%), ETA: 0:48:40, Rate: 5.1 cps, Current: 42, 10
-[08:32:48] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1164 chunks (7.22%), ETA: 0:47:39, Rate: 5.2 cps, Current: 43, 8
-[08:32:49] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1165 chunks (7.22%), ETA: 0:44:03, Rate: 5.7 cps, Current: 42, 11
-[08:32:51] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1173 chunks (7.27%), ETA: 0:45:09, Rate: 5.5 cps, Current: 44, 9
-[08:32:52] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1190 chunks (7.38%), ETA: 0:37:38, Rate: 6.6 cps, Current: 47, 10
-[08:32:54] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1286 chunks (7.97%), ETA: 0:15:57, Rate: 15.5 cps, Current: 33, 17
-[08:32:57] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1288 chunks (7.99%), ETA: 0:16:05, Rate: 15.4 cps, Current: 33, 19
-[08:33:02] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1289 chunks (7.99%), ETA: 8:06:45, Rate: 0.5 cps, Current: 33, 21
-[08:33:03] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1301 chunks (8.07%), ETA: 2:19:10, Rate: 1.8 cps, Current: 34, 17
-[08:33:04] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1304 chunks (8.08%), ETA: 1:35:57, Rate: 2.6 cps, Current: 33, 20
-[08:33:05] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1342 chunks (8.32%), ETA: 0:34:58, Rate: 7.0 cps, Current: 35, 21
-[08:33:06] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1359 chunks (8.43%), ETA: 0:31:03, Rate: 7.9 cps, Current: 35, 24
-[08:33:10] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1373 chunks (8.51%), ETA: 0:22:16, Rate: 11.0 cps, Current: 34, 30
-[08:33:11] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1393 chunks (8.64%), ETA: 0:20:26, Rate: 12.0 cps, Current: 38, 28
-[08:33:12] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1399 chunks (8.67%), ETA: 0:20:15, Rate: 12.1 cps, Current: 37, 27
-[08:33:13] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1403 chunks (8.70%), ETA: 0:22:05, Rate: 11.1 cps, Current: 38, 24
-[08:33:14] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1408 chunks (8.73%), ETA: 0:38:02, Rate: 6.4 cps, Current: 39, 28
-[08:33:15] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1415 chunks (8.77%), ETA: 0:38:38, Rate: 6.3 cps, Current: 41, 25
-[08:33:16] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1422 chunks (8.82%), ETA: 0:38:20, Rate: 6.4 cps, Current: 40, 30
-[08:33:18] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1437 chunks (8.91%), ETA: 0:34:19, Rate: 7.1 cps, Current: 44, 30
-[08:33:19] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1446 chunks (8.97%), ETA: 0:30:00, Rate: 8.2 cps, Current: 47, 31
-[08:33:20] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1454 chunks (9.01%), ETA: 0:31:27, Rate: 7.8 cps, Current: 44, 27
-[08:33:21] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1502 chunks (9.31%), ETA: 0:21:41, Rate: 11.2 cps, Current: 41, 20
-[08:33:23] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1511 chunks (9.37%), ETA: 0:19:43, Rate: 12.3 cps, Current: 43, 19
-[08:33:25] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1512 chunks (9.37%), ETA: 0:21:48, Rate: 11.2 cps, Current: 41, 16
-[08:33:26] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1522 chunks (9.44%), ETA: 0:22:23, Rate: 10.9 cps, Current: 45, 19
-[08:33:27] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1528 chunks (9.47%), ETA: 0:23:28, Rate: 10.4 cps, Current: 45, 18
-[08:33:28] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1531 chunks (9.49%), ETA: 0:26:37, Rate: 9.1 cps, Current: 46, 16
-[08:33:30] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1534 chunks (9.51%), ETA: 0:32:05, Rate: 7.6 cps, Current: 47, 16
-[08:33:30] [Server thread/INFO]: EvilHydra lost connection: Disconnected
-[08:33:30] [Server thread/INFO]: EvilHydra left the game
-[08:33:32] [User Authenticator #1/INFO]: UUID of player EvilHydra is 16bbccae-6c08-3ac4-bd5e-c1a24cd48452
-[08:33:32] [Server thread/INFO]: EvilHydra joined the game
-[08:33:32] [Server thread/INFO]: EvilHydra[/103.185.161.36:54238] logged in with entity id 834 at ([world]100.12408314906683, 64.0, 301.0601141087962)
-[08:33:32] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1537 chunks (9.53%), ETA: 1:25:47, Rate: 2.8 cps, Current: 48, 16
-[08:33:33] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1569 chunks (9.73%), ETA: 0:43:24, Rate: 5.6 cps, Current: 54, 21
-[08:33:35] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1578 chunks (9.78%), ETA: 0:38:31, Rate: 6.3 cps, Current: 55, 20
-[08:33:37] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1589 chunks (9.85%), ETA: 0:37:51, Rate: 6.4 cps, Current: 48, 20
-[08:33:38] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1594 chunks (9.88%), ETA: 0:39:23, Rate: 6.2 cps, Current: 49, 22
-[08:33:40] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1601 chunks (9.93%), ETA: 0:28:16, Rate: 8.6 cps, Current: 48, 24
-[08:33:41] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1613 chunks (10.00%), ETA: 0:27:03, Rate: 8.9 cps, Current: 49, 26
-[08:33:42] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1624 chunks (10.07%), ETA: 0:27:23, Rate: 8.8 cps, Current: 51, 25
-[08:33:44] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1639 chunks (10.16%), ETA: 0:26:54, Rate: 9.0 cps, Current: 52, 28
-[08:33:45] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1643 chunks (10.19%), ETA: 0:38:35, Rate: 6.3 cps, Current: 53, 31
-[08:33:47] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1658 chunks (10.28%), ETA: 0:34:08, Rate: 7.1 cps, Current: 52, 24
-[08:33:49] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1665 chunks (10.32%), ETA: 0:33:41, Rate: 7.2 cps, Current: 56, 24
-[08:33:51] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1672 chunks (10.37%), ETA: 0:36:00, Rate: 6.7 cps, Current: 56, 27
-[08:33:52] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1683 chunks (10.43%), ETA: 0:40:51, Rate: 5.9 cps, Current: 58, 27
-[08:33:54] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1692 chunks (10.49%), ETA: 0:39:01, Rate: 6.2 cps, Current: 59, 28
-[08:33:55] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1696 chunks (10.52%), ETA: 0:40:54, Rate: 5.9 cps, Current: 60, 30
-[08:33:56] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1706 chunks (10.58%), ETA: 0:39:08, Rate: 6.1 cps, Current: 60, 31
-[08:33:57] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1710 chunks (10.60%), ETA: 0:42:49, Rate: 5.6 cps, Current: 61, 27
-[08:33:59] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1721 chunks (10.67%), ETA: 0:44:09, Rate: 5.4 cps, Current: 60, 24
-[08:34:00] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1729 chunks (10.72%), ETA: 0:41:59, Rate: 5.7 cps, Current: 62, 23
-[08:34:01] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.48:54505 tried to connect!
-[08:34:02] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1732 chunks (10.74%), ETA: 0:49:33, Rate: 4.8 cps, Current: 62, 21
-[08:34:03] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1740 chunks (10.79%), ETA: 0:46:25, Rate: 5.2 cps, Current: 56, 22
-[08:34:04] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
-[08:34:04] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
-[08:34:04] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1744 chunks (10.81%), ETA: 0:53:30, Rate: 4.5 cps, Current: 56, 21
-[08:34:05] [Geyser Spigot connection thread-5-3/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
-[08:34:05] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
-[08:34:05] [Server thread/INFO]: .EVILFURY5243 joined the game
-[08:34:05] [Server thread/INFO]: .EVILFURY5243[/103.185.161.48:0] logged in with entity id 972 at ([world]112.68933, 55.0, 368.0496)
-[08:34:06] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1747 chunks (10.83%), ETA: 0:56:58, Rate: 4.2 cps, Current: 56, 20
-[08:34:07] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1751 chunks (10.86%), ETA: 1:05:51, Rate: 3.6 cps, Current: 57, 21
-[08:34:09] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1755 chunks (10.88%), ETA: 1:09:58, Rate: 3.4 cps, Current: 62, 20
-[08:34:12] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1758 chunks (10.90%), ETA: 1:24:05, Rate: 2.8 cps, Current: 57, 20
-[08:34:14] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1761 chunks (10.92%), ETA: 2:02:50, Rate: 1.9 cps, Current: 56, 19
-[08:34:15] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1764 chunks (10.94%), ETA: 1:57:47, Rate: 2.0 cps, Current: 56, 18
-[08:34:16] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1769 chunks (10.97%), ETA: 1:44:59, Rate: 2.3 cps, Current: 58, 18
-[08:34:17] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1770 chunks (10.97%), ETA: 1:55:48, Rate: 2.1 cps, Current: 56, 16
-[08:34:18] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1771 chunks (10.98%), ETA: 2:18:24, Rate: 1.7 cps, Current: 58, 17
-[08:34:19] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1782 chunks (11.05%), ETA: 1:30:49, Rate: 2.6 cps, Current: 62, 18
-[08:34:21] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1783 chunks (11.05%), ETA: 1:23:11, Rate: 2.9 cps, Current: 61, 17
-[08:34:23] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1784 chunks (11.06%), ETA: 1:29:36, Rate: 2.7 cps, Current: 58, 16
-[08:34:24] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1790 chunks (11.10%), ETA: 1:23:44, Rate: 2.9 cps, Current: 62, 15
-[08:34:25] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1798 chunks (11.15%), ETA: 1:11:12, Rate: 3.4 cps, Current: 63, 16
-[08:34:27] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1802 chunks (11.17%), ETA: 1:12:47, Rate: 3.3 cps, Current: 60, 14
-[08:34:28] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1816 chunks (11.26%), ETA: 0:52:07, Rate: 4.6 cps, Current: 60, 11
-[08:34:29] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1823 chunks (11.30%), ETA: 0:51:15, Rate: 4.7 cps, Current: 63, 8
-[08:34:31] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1834 chunks (11.37%), ETA: 0:46:46, Rate: 5.1 cps, Current: 59, 8
-[08:34:32] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1855 chunks (11.50%), ETA: 0:32:09, Rate: 7.4 cps, Current: 56, 15
-[08:34:34] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1857 chunks (11.51%), ETA: 0:35:07, Rate: 6.8 cps, Current: 55, 15
-[08:34:35] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1869 chunks (11.59%), ETA: 0:32:50, Rate: 7.2 cps, Current: 50, 15
-[08:34:37] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1876 chunks (11.63%), ETA: 0:31:08, Rate: 7.6 cps, Current: 52, 13
-[08:34:38] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1882 chunks (11.67%), ETA: 0:31:52, Rate: 7.4 cps, Current: 49, 14
-[08:34:39] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1886 chunks (11.69%), ETA: 0:36:04, Rate: 6.6 cps, Current: 49, 12
-[08:34:40] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1898 chunks (11.77%), ETA: 0:33:50, Rate: 7.0 cps, Current: 50, 9
-[08:34:41] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1900 chunks (11.78%), ETA: 0:36:18, Rate: 6.5 cps, Current: 51, 10
-[08:34:43] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1903 chunks (11.80%), ETA: 0:39:04, Rate: 6.1 cps, Current: 52, 10
-[08:34:44] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1910 chunks (11.84%), ETA: 0:39:58, Rate: 5.9 cps, Current: 55, 10
-[08:34:46] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1921 chunks (11.91%), ETA: 0:46:59, Rate: 5.0 cps, Current: 55, 7
-[08:34:48] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1933 chunks (11.98%), ETA: 0:45:04, Rate: 5.2 cps, Current: 48, 6
-[08:34:49] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1943 chunks (12.05%), ETA: 0:41:33, Rate: 5.7 cps, Current: 49, 5
-[08:34:50] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1948 chunks (12.08%), ETA: 0:42:29, Rate: 5.6 cps, Current: 53, 4
-[08:34:51] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1951 chunks (12.10%), ETA: 0:46:51, Rate: 5.0 cps, Current: 50, 4
-[08:34:52] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1957 chunks (12.13%), ETA: 0:46:09, Rate: 5.1 cps, Current: 48, 1
-[08:34:53] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1959 chunks (12.15%), ETA: 0:46:52, Rate: 5.0 cps, Current: 49, 2
-[08:34:54] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1961 chunks (12.16%), ETA: 0:49:36, Rate: 4.8 cps, Current: 50, 2
-[08:34:56] [Server thread/INFO]: [Chunky] Task running for world. Processed: 1985 chunks (12.31%), ETA: 0:37:35, Rate: 6.3 cps, Current: 56, 4
-[08:34:58] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2004 chunks (12.42%), ETA: 0:31:23, Rate: 7.5 cps, Current: 58, 3
-[08:35:01] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2005 chunks (12.43%), ETA: 0:41:00, Rate: 5.7 cps, Current: 58, 7
-[08:35:02] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2007 chunks (12.44%), ETA: 0:45:25, Rate: 5.2 cps, Current: 59, 0
-[08:35:04] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2009 chunks (12.46%), ETA: 0:46:21, Rate: 5.1 cps, Current: 58, 6
-[08:35:06] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2014 chunks (12.49%), ETA: 0:49:45, Rate: 4.7 cps, Current: 59, 6
-[08:35:08] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client disconnected
-[08:35:08] [Geyser Spigot connection thread-5-3/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
-[08:35:08] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
-[08:35:08] [Server thread/INFO]: .EVILFURY5243 left the game
-[08:35:09] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2017 chunks (12.51%), ETA: 2:30:08, Rate: 1.6 cps, Current: 60, 7
-[08:35:10] [Async Chat Thread - #2/INFO]: [Not Secure] <EvilHydra> hi
-[08:35:10] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2024 chunks (12.55%), ETA: 1:54:49, Rate: 2.0 cps, Current: 61, 6
-[08:35:11] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2028 chunks (12.57%), ETA: 1:26:21, Rate: 2.7 cps, Current: 62, 5
-[08:35:13] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2037 chunks (12.63%), ETA: 1:08:25, Rate: 3.4 cps, Current: 62, 2
-[08:35:15] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2041 chunks (12.65%), ETA: 0:54:18, Rate: 4.3 cps, Current: 63, 5
-[08:35:17] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2049 chunks (12.70%), ETA: 0:56:09, Rate: 4.2 cps, Current: 63, 1
-[08:35:19] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2066 chunks (12.81%), ETA: 0:46:29, Rate: 5.0 cps, Current: 34, -28
-[08:35:20] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2068 chunks (12.82%), ETA: 0:49:59, Rate: 4.7 cps, Current: 34, -26
-[08:35:24] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2080 chunks (12.90%), ETA: 0:52:31, Rate: 4.5 cps, Current: 32, -25
-[08:35:27] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2089 chunks (12.95%), ETA: 0:57:04, Rate: 4.1 cps, Current: 37, -25
-[08:35:28] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2100 chunks (13.02%), ETA: 0:49:27, Rate: 4.7 cps, Current: 38, -30
-[08:35:29] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2106 chunks (13.06%), ETA: 0:48:47, Rate: 4.8 cps, Current: 39, -27
-[08:35:32] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2110 chunks (13.08%), ETA: 0:58:50, Rate: 4.0 cps, Current: 40, -31
-[08:35:33] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2117 chunks (13.13%), ETA: 0:57:12, Rate: 4.1 cps, Current: 41, -30
-[08:35:35] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2144 chunks (13.29%), ETA: 0:41:45, Rate: 5.6 cps, Current: 45, -27
-[08:35:37] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2154 chunks (13.35%), ETA: 0:35:54, Rate: 6.5 cps, Current: 47, -28
-[08:35:38] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2165 chunks (13.42%), ETA: 0:33:46, Rate: 6.9 cps, Current: 47, -26
-[08:35:39] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2167 chunks (13.44%), ETA: 0:37:29, Rate: 6.2 cps, Current: 43, -25
-[08:35:40] [Server thread/INFO]: EvilHydra issued server command: /chunky stop
-[08:35:42] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2177 chunks (13.50%), ETA: 0:34:23, Rate: 6.8 cps, Current: 40, -24
-[08:35:43] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2184 chunks (13.54%), ETA: 0:35:15, Rate: 6.6 cps, Current: 41, -22
-[08:35:45] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2197 chunks (13.62%), ETA: 0:41:44, Rate: 5.6 cps, Current: 40, -23
-[08:35:46] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2203 chunks (13.66%), ETA: 0:47:19, Rate: 4.9 cps, Current: 40, -21
-[08:35:48] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2218 chunks (13.75%), ETA: 0:39:59, Rate: 5.8 cps, Current: 47, -20
-[08:35:49] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2236 chunks (13.86%), ETA: 0:26:01, Rate: 8.9 cps, Current: 41, -18
-[08:35:51] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2264 chunks (14.04%), ETA: 0:22:41, Rate: 10.2 cps, Current: 38, -21
-[08:35:52] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2283 chunks (14.15%), ETA: 0:20:50, Rate: 11.1 cps, Current: 33, -22
-[08:35:53] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2299 chunks (14.25%), ETA: 0:19:13, Rate: 12.0 cps, Current: 32, -13
-[08:35:54] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2379 chunks (14.75%), ETA: 0:12:29, Rate: 18.3 cps, Current: 36, -15
-[08:35:56] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2385 chunks (14.79%), ETA: 0:12:07, Rate: 18.9 cps, Current: 36, -13
-[08:35:58] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2392 chunks (14.83%), ETA: 0:13:53, Rate: 16.5 cps, Current: 37, -12
-[08:35:59] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2403 chunks (14.90%), ETA: 0:14:05, Rate: 16.2 cps, Current: 39, -12
-[08:36:00] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2427 chunks (15.05%), ETA: 0:13:15, Rate: 17.2 cps, Current: 39, -7
-[08:36:01] [Server thread/INFO]: [Chunky] Task running for world. Processed: 2433 chunks (15.08%), ETA: 0:14:08, Rate: 16.1 cps, Current: 40, -7
-[08:36:02] [Server thread/INFO]: EvilHydra issued server command: /chunky pause
-[08:36:03] [Chunky-world Thread/INFO]: [Chunky] Task stopped for world.
-[08:39:20] [Server thread/INFO]: EvilHydra issued server command: /time set day
-[08:39:20] [Server thread/INFO]: [EvilHydra: Set the time to 1000]
-[08:48:53] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:49923 tried to connect!
-[08:48:54] [epollEventLoopGroup-3-3/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
-[08:48:54] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
-[08:48:54] [Geyser Spigot connection thread-5-4/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
-[08:48:54] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
-[08:48:54] [Server thread/INFO]: .EVILFURY5243 joined the game
-[08:48:54] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 2820 at ([world]111.30404, 55.0, 367.77917)
-[08:49:09] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client disconnected
-[08:49:09] [Geyser Spigot connection thread-5-4/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
-[08:49:09] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
-[08:49:09] [Server thread/INFO]: .EVILFURY5243 left the game
-[08:49:51] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:49923 tried to connect!
-[08:49:52] [epollEventLoopGroup-3-4/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
-[08:49:52] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
-[08:49:53] [Geyser Spigot connection thread-5-1/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
-[08:49:53] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
-[08:49:53] [Server thread/INFO]: .EVILFURY5243 joined the game
-[08:49:53] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 2901 at ([world]111.30404, 55.0, 367.7)
-[09:01:32] [Geyser Spigot connection thread-5-1/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
-[09:01:32] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client disconnected
-[09:01:32] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
-[09:01:32] [Server thread/INFO]: .EVILFURY5243 left the game
-[09:03:03] [Server thread/INFO]: EvilHydra lost connection: Disconnected
-[09:03:03] [Server thread/INFO]: EvilHydra left the game
-[10:43:22] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.124.140.155:48649 tried to connect!
-[10:43:25] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Player connected with username LIGHTMOHIT
-[10:43:25] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] LIGHTMOHIT (logged in as: LIGHTMOHIT) has connected to the Java server
-[10:43:26] [Geyser Spigot connection thread-5-2/INFO]: UUID of player .LIGHTMOHIT is 00000000-0000-0000-0009-01fc8ce40178
-[10:43:26] [Server thread/INFO]: [floodgate] Floodgate player logged in as .LIGHTMOHIT joined (UUID: 00000000-0000-0000-0009-01fc8ce40178)
-[10:43:26] [Server thread/INFO]: .LIGHTMOHIT joined the game
-[10:43:26] [Server thread/INFO]: .LIGHTMOHIT[/103.124.140.155:0] logged in with entity id 5191 at ([world]100.5, 64.0, 300.5)
-[10:43:38] [User Authenticator #2/INFO]: UUID of player EvilHydra is 16bbccae-6c08-3ac4-bd5e-c1a24cd48452
-[10:43:38] [Server thread/INFO]: EvilHydra joined the game
-[10:43:39] [Server thread/INFO]: EvilHydra[/103.185.161.36:56430] logged in with entity id 5314 at ([world]-84.30000001192093, 64.0, 315.27727058948676)
-[10:44:09] [Async Chat Thread - #4/INFO]: [Not Secure] <.LIGHTMOHIT> hii
-[10:44:17] [Server thread/INFO]: EvilHydra issued server command: /hi
-[10:44:24] [Async Chat Thread - #4/INFO]: [Not Secure] <EvilHydra> hi
-[10:44:42] [Async Chat Thread - #4/INFO]: [Not Secure] <.LIGHTMOHIT> where r u
-[10:45:03] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:34017 tried to connect!
-[10:45:04] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
-[10:45:04] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
-[10:45:05] [Geyser Spigot connection thread-5-3/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
-[10:45:05] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
-[10:45:05] [Server thread/INFO]: .EVILFURY5243 joined the game
-[10:45:05] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 5643 at ([world]-95.25578, 58.0, 314.30001)
-[10:45:13] [Async Chat Thread - #4/INFO]: [Not Secure] <.LIGHTMOHIT> we r making our base here
-[10:45:20] [Async Chat Thread - #3/INFO]: [Not Secure] <EvilHydra> yes
-[10:45:29] [Async Chat Thread - #4/INFO]: [Not Secure] <EvilHydra> how is server ping
-[10:45:36] [Async Chat Thread - #4/INFO]: [Not Secure] <.LIGHTMOHIT> so can u give me some item
-[10:45:50] [Async Chat Thread - #4/INFO]: [Not Secure] <.LIGHTMOHIT> i will make this area flat
-[10:46:13] [Async Chat Thread - #4/INFO]: [Not Secure] <EvilHydra> can u come to discord
-[10:46:20] [Async Chat Thread - #4/INFO]: [Not Secure] <.LIGHTMOHIT> no
-[10:46:40] [Async Chat Thread - #4/INFO]: [Not Secure] <EvilHydra> server will be on for 12 * 7
-[10:46:48] [Async Chat Thread - #3/INFO]: [Not Secure] <.LIGHTMOHIT> ooh
-[10:47:02] [Async Chat Thread - #4/INFO]: [Not Secure] <EvilHydra> for 12pm to 12am
-[10:47:24] [Async Chat Thread - #4/INFO]: [Not Secure] <EvilHydra> i don't have tool
-[10:47:24] [Async Chat Thread - #4/INFO]: [Not Secure] <.LIGHTMOHIT> i will be back
-[10:47:47] [Async Chat Thread - #4/INFO]: [Not Secure] <EvilHydra> should we use teleport command
-[10:48:03] [Async Chat Thread - #4/INFO]: [Not Secure] <.LIGHTMOHIT> as u wish
-[10:48:13] [Async Chat Thread - #3/INFO]: [Not Secure] <.EVILFURY5243> come to discord
-[10:49:06] [Async Chat Thread - #4/INFO]: [Not Secure] <.LIGHTMOHIT> bro i will download but i dont know how to use
-[10:49:15] [Server thread/INFO]: .LIGHTMOHIT has made the advancement [Stone Age]
-[10:49:22] [Async Chat Thread - #3/INFO]: [Not Secure] <EvilHydra> it is easy
-[10:49:28] [Server thread/INFO]: .LIGHTMOHIT has made the advancement [Getting an Upgrade]
-[10:50:16] [Async Chat Thread - #4/INFO]: [Not Secure] <.EVILFURY5243> good job
-[10:50:30] [Async Chat Thread - #4/INFO]: [Not Secure] <.LIGHTMOHIT> what
-[10:51:09] [Async Chat Thread - #4/INFO]: [Not Secure] <EvilHydra> mohit i taking vote should we use tp or not
-[10:51:10] [Async Chat Thread - #4/INFO]: [Not Secure] <.LIGHTMOHIT> bro server is best but i cant play now because my mother is going out 
-[10:51:14] [Async Chat Thread - #3/INFO]: [Not Secure] <.LIGHTMOHIT> so bye
-[10:51:24] [Async Chat Thread - #4/INFO]: [Not Secure] <.EVILFURY5243> ok
-[10:51:32] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] LIGHTMOHIT has disconnected from the Java server because of Bedrock client disconnected
-[10:51:32] [Geyser Spigot connection thread-5-2/INFO]: [floodgate] Floodgate player logged in as .LIGHTMOHIT disconnected
-[10:51:32] [Server thread/INFO]: .LIGHTMOHIT lost connection: Disconnected
-[10:51:32] [Server thread/INFO]: .LIGHTMOHIT left the game
-[10:52:45] [Server thread/INFO]: EvilHydra lost connection: Disconnected
-[10:52:45] [Server thread/INFO]: EvilHydra left the game
-[10:53:09] [User Authenticator #3/INFO]: UUID of player EvilHydra is 16bbccae-6c08-3ac4-bd5e-c1a24cd48452
-[10:53:09] [Server thread/INFO]: EvilHydra joined the game
-[10:53:09] [Server thread/INFO]: EvilHydra[/103.185.161.36:56681] logged in with entity id 6588 at ([world]113.46846825768853, 55.0, 363.8286600209096)
-[10:53:12] [Server thread/INFO]: EvilHydra lost connection: Disconnected
-[10:53:12] [Server thread/INFO]: EvilHydra left the game
-[10:54:38] [Geyser Spigot connection thread-5-3/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
-[10:54:38] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client disconnected
-[10:54:38] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
-[10:54:38] [Server thread/INFO]: .EVILFURY5243 left the game
-[10:55:47] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:34017 tried to connect!
-[10:55:48] [epollEventLoopGroup-3-3/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
-[10:55:48] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
-[10:55:48] [Geyser Spigot connection thread-5-4/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
-[10:55:48] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
-[10:55:48] [Server thread/INFO]: .EVILFURY5243 joined the game
-[10:55:48] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 6728 at ([world]115.30001, 56.0, 356.9402)
-[10:56:49] [User Authenticator #4/INFO]: UUID of player EvilHydra is 16bbccae-6c08-3ac4-bd5e-c1a24cd48452
-[10:56:49] [Server thread/INFO]: EvilHydra joined the game
-[10:56:49] [Server thread/INFO]: EvilHydra[/103.185.161.36:56774] logged in with entity id 6824 at ([world]113.46288758709157, 55.0, 363.18695693578826)
-[10:57:40] [Server thread/INFO]: .EVILFURY5243 has made the advancement [Acquire Hardware]
-[11:01:14] [Server thread/INFO]: .EVILFURY5243 has made the advancement [Isn't It Iron Pick]
-[11:04:45] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client timed out
-[11:04:45] [Geyser Spigot connection thread-5-4/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
-[11:04:45] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
-[11:04:45] [Server thread/INFO]: .EVILFURY5243 left the game
-[11:05:05] [Server thread/INFO]: EvilHydra lost connection: Timed out
-[11:05:05] [Server thread/INFO]: EvilHydra left the game
-[11:05:14] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /106.193.91.224:19181 tried to connect!
-[11:05:14] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /106.193.91.224:19181 tried to connect!
-[11:05:15] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /106.193.91.224:19181 tried to connect!
-[11:05:20] [epollEventLoopGroup-3-4/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
-[11:05:20] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
-[11:05:20] [Geyser Spigot connection thread-5-1/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
-[11:05:21] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
-[11:05:21] [Server thread/INFO]: .EVILFURY5243 joined the game
-[11:05:21] [Server thread/INFO]: .EVILFURY5243[/106.193.91.224:0] logged in with entity id 7957 at ([world]60.74626, 7.000000476837158, 367.3565)
-[11:11:08] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client timed out
-[11:11:08] [Geyser Spigot connection thread-5-1/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
-[11:11:08] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
-[11:11:08] [Server thread/INFO]: .EVILFURY5243 left the game
-[11:11:53] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:49588 tried to connect!
-[11:11:54] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
-[11:11:54] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
-[11:11:55] [Geyser Spigot connection thread-5-2/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
-[11:11:55] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
-[11:11:55] [Server thread/INFO]: .EVILFURY5243 joined the game
-[11:11:55] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 8497 at ([world]63.69999, 8.0, 369.77713)
-[11:16:30] [Server thread/INFO]: .EVILFURY5243 was slain by Enderman
-[11:25:12] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-132 (MC: 1.20.1) ---
-[11:25:12] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[11:25:12] [Paper Watchdog Thread/ERROR]: ------------------------------
-[11:25:12] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[11:25:12] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
-[11:25:12] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[11:25:12] [Paper Watchdog Thread/ERROR]: Entity UUID: 00000000-0000-0000-0009-01f413dcfde4
-[11:25:12] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (262.16492, 56.92159, 162.1032)
-[11:25:12] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, -0.053038458655264055, 0.0) (in blocks per tick)
-[11:25:12] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[261.86491998807907, 56.92159, 161.80319998807906] -> [262.4649200119209, 58.721589952316286, 162.40320001192092]
-[11:25:12] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 76744
-[11:25:12] [Paper Watchdog Thread/ERROR]: ------------------------------
-[11:25:12] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[11:25:12] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
-[11:25:12] [Paper Watchdog Thread/ERROR]: 	Stack:
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:736)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:648)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.a(DensityFunctions.java:604)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:775)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.mapAll(DensityFunctions.java:887)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:775)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:775)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:775)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:775)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$BlendDensity.mapAll(DensityFunctions.java:387)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:736)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.mapAll(DensityFunctions.java:775)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:648)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.a(DensityFunctions.java:604)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:736)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.<init>(NoiseChunk.java:132)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:171)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:121)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight(ChunkGenerator.java:714)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.onTopOfChunkCenter(Structure.java:100)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure.findGenerationPoint(BuriedTreasureStructure.java:20)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.findValidGenerationPoint(Structure.java:154)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:185)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:177)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda$8693/0x00007f0b256da3a0.get(Unknown Source)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$SynchronisedLong2BooleanMap.getOrCompute(StructureCheck.java:133)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:176)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:167)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:302)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:272)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:201)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:2040)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:60)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4484/0x00007f0b249edf08.apply(Unknown Source)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$8257/0x00007f0b2562f2d8.accept(Unknown Source)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:71)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:100)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:119)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:134)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:163)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:157)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:165)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1559)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1177)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:582)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:2003)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$7728/0x00007f0b254fd270.run(Unknown Source)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1339)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1316)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1309)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1287)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4630/0x00007f0b24a291b8.run(Unknown Source)
-[11:25:12] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
-[11:25:12] [Paper Watchdog Thread/ERROR]: ------------------------------
-[11:25:12] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[11:25:12] [Paper Watchdog Thread/ERROR]: ------------------------------
-[11:25:17] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-132 (MC: 1.20.1) ---
-[11:25:17] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
-[11:25:17] [Paper Watchdog Thread/ERROR]: ------------------------------
-[11:25:17] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[11:25:17] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
-[11:25:17] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[11:25:17] [Paper Watchdog Thread/ERROR]: Entity UUID: 00000000-0000-0000-0009-01f413dcfde4
-[11:25:17] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (262.16492, 56.92159, 162.1032)
-[11:25:17] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, -0.053038458655264055, 0.0) (in blocks per tick)
-[11:25:17] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[261.86491998807907, 56.92159, 161.80319998807906] -> [262.4649200119209, 58.721589952316286, 162.40320001192092]
-[11:25:17] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 76744
-[11:25:17] [Paper Watchdog Thread/ERROR]: ------------------------------
-[11:25:17] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[11:25:17] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: RUNNABLE
-[11:25:17] [Paper Watchdog Thread/ERROR]: 	Stack:
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:248)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:248)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$Cache2D.compute(NoiseChunk.java:483)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$FlatCache.compute(NoiseChunk.java:629)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:252)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:248)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:842)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:842)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:842)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:842)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:842)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:261)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:842)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:842)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.compute(DensityFunctions.java:261)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$PureTransformer.compute(DensityFunctions.java:842)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.computePreliminarySurfaceLevel(NoiseChunk.java:180)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$$Lambda$7863/0x00007f0b2552e570.get(Unknown Source)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.longs.Long2IntOpenHashMap.computeIfAbsent(Long2IntOpenHashMap.java:489)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.preliminarySurfaceLevel(NoiseChunk.java:171)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.Aquifer$NoiseBasedAquifer.computeFluid(Aquifer.java:340)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.Aquifer$NoiseBasedAquifer.getAquiferStatus(Aquifer.java:324)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.Aquifer$NoiseBasedAquifer.computeSubstance(Aquifer.java:188)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.lambda$new$0(NoiseChunk.java:133)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$$Lambda$7841/0x00007f0b2552a9a0.calculate(Unknown Source)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.material.MaterialRuleList.calculate(MaterialRuleList.java:14)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.getInterpolatedState(NoiseChunk.java:150)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:186)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:121)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight(ChunkGenerator.java:714)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.onTopOfChunkCenter(Structure.java:100)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure.findGenerationPoint(BuriedTreasureStructure.java:20)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.findValidGenerationPoint(Structure.java:154)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:185)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:177)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda$8693/0x00007f0b256da3a0.get(Unknown Source)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$SynchronisedLong2BooleanMap.getOrCompute(StructureCheck.java:133)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:176)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:167)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:302)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:272)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:201)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:2040)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:60)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4484/0x00007f0b249edf08.apply(Unknown Source)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$8257/0x00007f0b2562f2d8.accept(Unknown Source)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:71)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:100)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:119)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:134)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:163)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:157)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:165)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1559)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1177)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:582)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:2003)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:51)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$7728/0x00007f0b254fd270.run(Unknown Source)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1339)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1316)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1309)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1287)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1175)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4630/0x00007f0b24a291b8.run(Unknown Source)
-[11:25:17] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
-[11:25:17] [Paper Watchdog Thread/ERROR]: ------------------------------
-[11:25:17] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[11:25:17] [Paper Watchdog Thread/ERROR]: ------------------------------
-[11:25:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17043ms or 340 ticks behind
-[11:31:24] [Geyser Spigot connection thread-5-2/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
-[11:31:24] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client disconnected
-[11:31:24] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
-[11:31:24] [Server thread/INFO]: .EVILFURY5243 left the game
-[11:32:38] [User Authenticator #5/INFO]: UUID of player EvilHydra is 16bbccae-6c08-3ac4-bd5e-c1a24cd48452
-[11:32:38] [Server thread/INFO]: EvilHydra joined the game
-[11:32:38] [Server thread/INFO]: EvilHydra[/103.185.161.36:57912] logged in with entity id 11847 at ([world]48.64824862701295, 64.0, 297.46061523353535)
-[11:34:17] [Server thread/INFO]: EvilHydra lost connection: Timed out
-[11:34:17] [Server thread/INFO]: EvilHydra left the game
-[12:12:25] [User Authenticator #6/INFO]: UUID of player EvilHydra is 16bbccae-6c08-3ac4-bd5e-c1a24cd48452
-[12:12:26] [Server thread/INFO]: EvilHydra joined the game
-[12:12:26] [Server thread/INFO]: EvilHydra[/103.185.161.36:59094] logged in with entity id 12209 at ([world]100.47173533088856, 70.0, 336.59793099180126)
-[12:13:14] [Server thread/INFO]: EvilHydra lost connection: Disconnected
-[12:13:14] [Server thread/INFO]: EvilHydra left the game
-[12:15:46] [User Authenticator #7/INFO]: UUID of player EvilHydra is 16bbccae-6c08-3ac4-bd5e-c1a24cd48452
-[12:15:46] [Server thread/INFO]: EvilHydra joined the game
-[12:15:46] [Server thread/INFO]: EvilHydra[/103.185.161.36:49967] logged in with entity id 12288 at ([world]100.47173533088856, 70.0, 336.59793099180126)
-[12:18:09] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:42304 tried to connect!
-[12:18:10] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
-[12:18:10] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
-[12:18:11] [Geyser Spigot connection thread-5-3/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
-[12:18:11] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
-[12:18:11] [Server thread/INFO]: .EVILFURY5243 joined the game
-[12:18:11] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 12498 at ([world]113.896095, 55.0, 367.9718)
-[12:19:10] [Server thread/INFO]: EvilHydra issued server command: /time set day
-[12:19:10] [Server thread/INFO]: [EvilHydra: Set the time to 1000]
-[12:19:25] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client disconnected
-[12:19:25] [Geyser Spigot connection thread-5-3/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
-[12:19:25] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
-[12:19:25] [Server thread/INFO]: .EVILFURY5243 left the game
-[12:21:12] [Server thread/INFO]: EvilHydra lost connection: Disconnected
-[12:21:12] [Server thread/INFO]: EvilHydra left the game
-[12:53:40] [User Authenticator #8/INFO]: UUID of player EvilHydra is 16bbccae-6c08-3ac4-bd5e-c1a24cd48452
-[12:53:40] [Server thread/INFO]: EvilHydra joined the game
-[12:53:40] [Server thread/INFO]: EvilHydra[/103.185.161.36:51530] logged in with entity id 12757 at ([world]95.69011517340518, 72.0, 336.6887331865657)
-[12:53:49] [Server thread/INFO]: EvilHydra issued server command: /weather clear
-[12:53:49] [Server thread/INFO]: [EvilHydra: Set the weather to clear]
-[12:54:00] [Server thread/INFO]: EvilHydra issued server command: /time set day
-[12:54:00] [Server thread/INFO]: [EvilHydra: Set the time to 1000]
-[12:59:58] [Server thread/INFO]: EvilHydra lost connection: Disconnected
-[12:59:58] [Server thread/INFO]: EvilHydra left the game
-[13:02:47] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:39808 tried to connect!
-[13:02:48] [epollEventLoopGroup-3-3/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
-[13:02:48] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
-[13:02:49] [Geyser Spigot connection thread-5-4/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
-[13:02:49] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
-[13:02:49] [Server thread/INFO]: .EVILFURY5243 joined the game
-[13:02:49] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 13615 at ([world]113.744194, 55.0, 366.55777)
-[13:03:05] [User Authenticator #9/INFO]: UUID of player EvilHydra is 16bbccae-6c08-3ac4-bd5e-c1a24cd48452
-[13:03:05] [Server thread/INFO]: EvilHydra joined the game
-[13:03:05] [Server thread/INFO]: EvilHydra[/103.185.161.36:51867] logged in with entity id 13691 at ([world]115.22297828047026, 64.0, 235.04874095437654)
-[13:05:14] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client disconnected
-[13:05:14] [Geyser Spigot connection thread-5-4/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
-[13:05:14] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
-[13:05:14] [Server thread/INFO]: .EVILFURY5243 left the game
-[13:05:22] [Server thread/INFO]: EvilHydra issued server command: /time set day
-[13:05:22] [Server thread/INFO]: [EvilHydra: Set the time to 1000]
-[13:09:04] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:39808 tried to connect!
-[13:09:05] [epollEventLoopGroup-3-4/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
-[13:09:05] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
-[13:09:06] [Geyser Spigot connection thread-5-1/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
-[13:09:06] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
-[13:09:06] [Server thread/INFO]: .EVILFURY5243 joined the game
-[13:09:06] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 14854 at ([world]113.744194, 55.0, 366.55777)
-[13:10:04] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client disconnected
-[13:10:04] [Geyser Spigot connection thread-5-1/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
-[13:10:04] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
-[13:10:04] [Server thread/INFO]: .EVILFURY5243 left the game
-[13:30:07] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:45851 tried to connect!
-[13:30:08] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
-[13:30:08] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
-[13:30:09] [Geyser Spigot connection thread-5-2/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
-[13:30:09] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
-[13:30:09] [Server thread/INFO]: .EVILFURY5243 joined the game
-[13:30:09] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 19178 at ([world]112.0811, 55.0, 368.89377)
-[13:33:28] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client disconnected
-[13:33:28] [Geyser Spigot connection thread-5-2/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
-[13:33:28] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
-[13:33:28] [Server thread/INFO]: .EVILFURY5243 left the game
-[13:34:09] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:45851 tried to connect!
-[13:34:10] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
-[13:34:10] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
-[13:34:11] [Geyser Spigot connection thread-5-3/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
-[13:34:11] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
-[13:34:11] [Server thread/INFO]: .EVILFURY5243 joined the game
-[13:34:11] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 19940 at ([world]94.40256, 63.0, 253.57771)
-[13:37:46] [Server thread/WARN]: Boat (vehicle of .EVILFURY5243) moved wrongly! 0.31600215988058267
-[13:38:18] [Server thread/WARN]: Boat (vehicle of .EVILFURY5243) moved wrongly! 0.5281297272405681
-[13:38:18] [Server thread/WARN]: Boat (vehicle of .EVILFURY5243) moved wrongly! 0.7964097565374431
-[13:38:18] [Server thread/WARN]: Boat (vehicle of .EVILFURY5243) moved wrongly! 0.3048211582379281
-[13:38:18] [Server thread/WARN]: Boat (vehicle of .EVILFURY5243) moved wrongly! 0.485979844623472
-[13:40:00] [Server thread/WARN]: Boat (vehicle of .EVILFURY5243) moved wrongly! 0.2604844994490918
-[13:40:00] [Server thread/WARN]: Boat (vehicle of EvilHydra) moved wrongly! 0.2569033782191923
-[13:40:00] [Server thread/WARN]: Boat (vehicle of EvilHydra) moved wrongly! 0.26304688350145966
-[13:40:00] [Server thread/WARN]: Boat (vehicle of EvilHydra) moved wrongly! 0.26778112448926095
-[13:40:00] [Server thread/WARN]: Boat (vehicle of EvilHydra) moved wrongly! 0.27065429298099275
-[13:40:01] [Server thread/WARN]: Boat (vehicle of EvilHydra) moved wrongly! 0.27121135518376605
-[13:41:01] [Geyser Spigot connection thread-5-3/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
-[13:41:01] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client timed out
-[13:41:01] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
-[13:41:01] [Server thread/INFO]: .EVILFURY5243 left the game
-[13:41:35] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:45851 tried to connect!
-[13:41:35] [epollEventLoopGroup-3-3/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
-[13:41:35] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
-[13:41:36] [Geyser Spigot connection thread-5-4/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
-[13:41:36] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
-[13:41:36] [Server thread/INFO]: .EVILFURY5243 joined the game
-[13:41:36] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 23305 at ([world]146.35556821686382, 61.95563, 175.52211037605178)
-[13:44:12] [Server thread/WARN]: Boat (vehicle of .EVILFURY5243) moved wrongly! 2.1517333984375
-[13:44:40] [Geyser Spigot connection thread-5-4/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
-[13:44:40] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client disconnected
-[13:44:40] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
-[13:44:40] [Server thread/INFO]: .EVILFURY5243 left the game
-[13:45:19] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:45851 tried to connect!
-[13:45:20] [epollEventLoopGroup-3-4/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
-[13:45:20] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
-[13:45:21] [Geyser Spigot connection thread-5-1/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
-[13:45:21] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
-[13:45:21] [Server thread/INFO]: .EVILFURY5243 joined the game
-[13:45:21] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 23921 at ([world]108.943924, 64.0, 311.7446)
-[13:46:53] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client disconnected
-[13:46:53] [Geyser Spigot connection thread-5-1/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
-[13:46:54] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
-[13:46:54] [Server thread/INFO]: .EVILFURY5243 left the game
-[13:49:29] [Server thread/INFO]: EvilHydra lost connection: Disconnected
-[13:49:29] [Server thread/INFO]: EvilHydra left the game
-[13:52:48] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:41048 tried to connect!
-[13:52:49] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
-[13:52:49] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
-[13:52:50] [Geyser Spigot connection thread-5-2/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
-[13:52:50] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
-[13:52:50] [Server thread/INFO]: .EVILFURY5243 joined the game
-[13:52:50] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 24322 at ([world]102.1742, 64.0, 335.1063)
-[13:54:47] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client disconnected
-[13:54:47] [Geyser Spigot connection thread-5-2/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
-[13:54:47] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
-[13:54:47] [Server thread/INFO]: .EVILFURY5243 left the game
-[14:07:57] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:60453 tried to connect!
-[14:07:58] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
-[14:07:58] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
-[14:07:59] [Geyser Spigot connection thread-5-3/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
-[14:07:59] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
-[14:07:59] [Server thread/INFO]: .EVILFURY5243 joined the game
-[14:07:59] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 24633 at ([world]97.71555, 72.0, 335.81567)
-[14:08:58] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.124.140.155:45957 tried to connect!
-[14:09:00] [epollEventLoopGroup-3-3/INFO]: [Geyser-Spigot] Player connected with username LIGHTMOHIT
-[14:09:00] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] LIGHTMOHIT (logged in as: LIGHTMOHIT) has connected to the Java server
-[14:09:01] [Geyser Spigot connection thread-5-4/INFO]: UUID of player .LIGHTMOHIT is 00000000-0000-0000-0009-01fc8ce40178
-[14:09:01] [Server thread/INFO]: [floodgate] Floodgate player logged in as .LIGHTMOHIT joined (UUID: 00000000-0000-0000-0009-01fc8ce40178)
-[14:09:01] [Server thread/INFO]: .LIGHTMOHIT joined the game
-[14:09:01] [Server thread/INFO]: .LIGHTMOHIT[/103.124.140.155:0] logged in with entity id 24932 at ([world]113.77619, 55.0, 367.9236)
-[14:09:34] [Server thread/WARN]: .LIGHTMOHIT moved too quickly! -1.5238200000000006,-2.252200000000002,11.801870000000008
-[14:09:55] [Async Chat Thread - #5/INFO]: [Not Secure] <.LIGHTMOHIT>  hii
-[14:10:02] [Async Chat Thread - #6/INFO]: [Not Secure] <.EVILFURY5243> hii bro
-[14:10:33] [Async Chat Thread - #6/INFO]: [Not Secure] <.LIGHTMOHIT> we r making our survival base here na
-[14:10:50] [Async Chat Thread - #5/INFO]: [Not Secure] <.EVILFURY5243> come 
-[14:11:06] [Async Chat Thread - #5/INFO]: [Not Secure] <.EVILFURY5243> here
-[14:11:33] [Async Chat Thread - #5/INFO]: [Not Secure] <.LIGHTMOHIT> so i will flat here
-[14:12:04] [Server thread/INFO]: .LIGHTMOHIT has made the advancement [Acquire Hardware]
-[14:14:29] [Async Chat Thread - #8/INFO]: [Not Secure] <.EVILFURY5243> good job
-[14:16:23] [Async Chat Thread - #9/INFO]: [Not Secure] <.LIGHTMOHIT> we just have one bed
-[14:16:25] [Async Chat Thread - #10/INFO]: [Not Secure] <.EVILFURY5243> we don't have bed
-[14:16:30] [Async Chat Thread - #9/INFO]: [Not Secure] <.EVILFURY5243> yes
-[14:16:37] [Async Chat Thread - #10/INFO]: [Not Secure] <.LIGHTMOHIT> are going slept together
-[14:16:37] [Async Chat Thread - #10/INFO]: [Not Secure] <.EVILFURY5243> come with me 
-[14:17:30] [Server thread/INFO]: .LIGHTMOHIT has made the advancement [Monster Hunter]
-[14:18:33] [Server thread/INFO]: .EVILFURY5243 was shot by Skeleton
-[14:18:35] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] LIGHTMOHIT has disconnected from the Java server because of Bedrock client disconnected
-[14:18:35] [Geyser Spigot connection thread-5-4/INFO]: [floodgate] Floodgate player logged in as .LIGHTMOHIT disconnected
-[14:18:35] [Server thread/INFO]: .LIGHTMOHIT lost connection: Disconnected
-[14:18:35] [Server thread/INFO]: .LIGHTMOHIT left the game
-[14:40:19] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client disconnected
-[14:40:19] [Geyser Spigot connection thread-5-3/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
-[14:40:19] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
-[14:40:19] [Server thread/INFO]: .EVILFURY5243 left the game
+[12:50:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[12:50:11] [Server thread/INFO]: Default game type: SURVIVAL
+[12:50:11] [Server thread/INFO]: Generating keypair
+[12:50:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:50:11] [Server thread/INFO]: Using epoll channel type
+[12:50:11] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[12:50:11] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[12:50:12] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b69-492be77)
+[12:50:13] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[12:50:13] [Server thread/INFO]: [floodgate] Took 1,111ms to boot Floodgate
+[12:50:13] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.1.2-SNAPSHOT
+[12:50:14] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[12:50:14] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[12:50:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:50:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:50:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:50:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:50:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:50:14] [Server thread/INFO]: Preparing level "world"
+[12:50:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:50:16] [Server thread/INFO]: Time elapsed: 433 ms
+[12:50:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:50:16] [Server thread/INFO]: Time elapsed: 140 ms
+[12:50:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:50:16] [Server thread/INFO]: Time elapsed: 196 ms
+[12:50:16] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b69-492be77)
+[12:50:17] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.2-SNAPSHOT
+[12:50:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[12:50:17] [Server thread/INFO]: [Geyser-Spigot] 
+[12:50:17] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.2-SNAPSHOT (git-master-661a9b4)
+[12:50:17] [Server thread/INFO]: [Geyser-Spigot] 
+[12:50:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[12:50:28] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[12:50:28] [Server thread/INFO]: [Geyser-Spigot] Done (11.01s)! Run /geyser help for help!
+[12:50:28] [Server thread/INFO]: Running delayed init tasks
+[12:50:28] [Server thread/INFO]: Done (18.405s)! For help, type "help"
+[12:50:28] [Server thread/INFO]: Timings Reset
+[12:50:37] [User Authenticator #0/INFO]: UUID of player EvilHydra is 16bbccae-6c08-3ac4-bd5e-c1a24cd48452
+[12:50:37] [Server thread/INFO]: EvilHydra joined the game
+[12:50:37] [Server thread/INFO]: EvilHydra[/103.185.161.36:53715] logged in with entity id 273 at ([world]-367.69999998807907, 59.0, 912.6999999880791)
+[12:50:44] [Server thread/INFO]: EvilHydra issued server command: /gamemode c
+[12:50:44] [Server thread/INFO]: EvilHydra suffocated in a wall
+[12:51:32] [Server thread/INFO]: EvilHydra issued server command: /locate structure minecraft:village_savanna
+[12:51:32] [Server thread/INFO]: Locating element minecraft:village_savanna took 55 ms
+[12:51:48] [Server thread/INFO]: EvilHydra issued server command: /tp @s -368 90 912
+[12:51:48] [Server thread/INFO]: [EvilHydra: Teleported EvilHydra to -367.500000, 90.000000, 912.500000]
+[12:51:49] [Server thread/INFO]: EvilHydra fell from a high place
+[12:52:07] [Server thread/INFO]: EvilHydra issued server command: /tp @s -368 ~ 912
+[12:52:07] [Server thread/INFO]: [EvilHydra: Teleported EvilHydra to -367.500000, 64.000000, 912.500000]
+[12:52:44] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:56063 tried to connect!
+[12:52:46] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
+[12:52:46] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
+[12:52:46] [Geyser Spigot connection thread-5-3/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
+[12:52:47] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
+[12:52:47] [Server thread/INFO]: .EVILFURY5243 joined the game
+[12:52:47] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 1374 at ([world]106.286865, 64.0, 329.82614)
+[12:52:52] [Server thread/INFO]: EvilHydra issued server command: /tp .EVILFURY5243 EvilHydra
+[12:52:52] [Server thread/INFO]: [EvilHydra: Teleported .EVILFURY5243 to EvilHydra]
+[12:52:52] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -506.7103704750896,-1.0,599.7257838557612
+[12:55:15] [Server thread/INFO]: EvilHydra issued server command: /give .EVILFURY5243 minecraft:iron_ingot 64
+[12:55:15] [Server thread/INFO]: [EvilHydra: Gave 64 [Iron Ingot] to .EVILFURY5243]
+[12:55:53] [Server thread/INFO]: EvilHydra issued server command: /give .EVILFURY5243 minecraft:oak_log 64
+[12:55:53] [Server thread/INFO]: [EvilHydra: Gave 64 [Oak Log] to .EVILFURY5243]
+[12:56:57] [Server thread/INFO]: EvilHydra issued server command: /give .EVILFURY5243 minecraft:oak_wood 64
+[12:56:57] [Server thread/INFO]: [EvilHydra: Gave 64 [Oak Wood] to .EVILFURY5243]
+[12:57:13] [Server thread/INFO]: EvilHydra issued server command: /give .EVILFURY5243 minecraft:water_bucket 2
+[12:57:13] [Server thread/INFO]: [EvilHydra: Gave 2 [Water Bucket] to .EVILFURY5243]
+[12:57:42] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client timed out
+[12:57:42] [Geyser Spigot connection thread-5-3/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
+[12:57:42] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
+[12:57:42] [Server thread/INFO]: .EVILFURY5243 left the game
+[12:58:10] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:49770 tried to connect!
+[12:58:11] [epollEventLoopGroup-3-3/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
+[12:58:11] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
+[12:58:12] [Geyser Spigot connection thread-5-4/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
+[12:58:12] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
+[12:58:12] [Server thread/INFO]: .EVILFURY5243 joined the game
+[12:58:12] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 2314 at ([world]-424.5911, 64.0, 949.94446)
+[13:01:59] [Server thread/INFO]: Stopping the server
+[13:01:59] [Server thread/INFO]: Stopping server
+[13:01:59] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.1.2-SNAPSHOT
+[13:01:59] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[13:01:59] [Server thread/INFO]: [Geyser-Spigot] Kicking 1 player(s)
+[13:01:59] [Server thread/INFO]: [Geyser-Spigot] Kicked all players!
+[13:01:59] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Geyser Proxy shutting down.
+[13:01:59] [Geyser Spigot connection thread-5-4/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
+[13:01:59] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[13:01:59] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b69-492be77)
+[13:01:59] [Server thread/INFO]: Saving players
+[13:01:59] [Server thread/INFO]: EvilHydra lost connection: Server closed
+[13:01:59] [Server thread/INFO]: EvilHydra left the game
+[13:01:59] [Server thread/INFO]: .EVILFURY5243 lost connection: Server closed
+[13:01:59] [Server thread/INFO]: .EVILFURY5243 left the game
+[13:01:59] [WebSocketConnectReadThread-54/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[13:01:59] [Server thread/INFO]: Saving worlds
+[13:01:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:01:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[13:01:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[13:01:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[13:02:01] [Server thread/INFO]: [ChunkHolderManager] Saved 1237 block chunks, 252 entity chunks, 2 poi chunks in world 'world' in 1.39s
+[13:02:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:02:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:02:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[13:02:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[13:02:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[13:02:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 29 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[13:02:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:02:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:02:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[13:02:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[13:02:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[13:02:01] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[13:02:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:02:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:02:01] [Server thread/INFO]: Flushing Chunk IO
+[13:02:01] [Server thread/INFO]: Closing Thread Pool
+[13:02:01] [Server thread/INFO]: Closing Server

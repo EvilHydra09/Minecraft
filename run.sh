@@ -1,1 +1,1 @@
-sudo java -Xms6G -Xmx6G -jar paper.jar -nogui
+java -Xms8G -Xmx8G -jar paper-1.20.1-145.jar --nogui

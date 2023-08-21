@@ -14,6 +14,8 @@
 
 _version: 28
 block-updates:
+  disable-chorus-plant-updates: false
+  disable-mushroom-block-updates: false
   disable-noteblock-updates: false
   disable-tripwire-updates: false
 chunk-loading-advanced:
@@ -67,7 +69,6 @@ misc:
     chat-executor-core-size: -1
     chat-executor-max-size: -1
   fix-entity-position-desync: true
-  lag-compensate-block-breaking: true
   load-permissions-yml-before-plugins: true
   max-joins-per-tick: 5
   region-file-cache-size: 256
