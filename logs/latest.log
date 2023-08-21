@@ -1,132 +1,192 @@
-[12:50:04] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12:50:09] [ServerMain/INFO]: Loaded 7 recipes
-[12:50:10] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[12:50:10] [Server thread/WARN]: ****************************
-[12:50:10] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[12:50:10] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[12:50:10] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[12:50:10] [Server thread/WARN]: ****************************
-[12:50:10] [Server thread/INFO]: Loading properties
-[12:50:10] [Server thread/INFO]: This server is running Paper version git-Paper-145 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 281855c)
-[12:50:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:50:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:50:11] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[13:04:59] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:05:02] [ServerMain/INFO]: Loaded 7 recipes
+[13:05:03] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[13:05:03] [Server thread/WARN]: ****************************
+[13:05:03] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[13:05:03] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[13:05:03] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[13:05:03] [Server thread/WARN]: ****************************
+[13:05:03] [Server thread/INFO]: Loading properties
+[13:05:03] [Server thread/INFO]: This server is running Paper version git-Paper-145 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 281855c)
+[13:05:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:05:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:05:04] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[12:50:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[12:50:11] [Server thread/INFO]: Default game type: SURVIVAL
-[12:50:11] [Server thread/INFO]: Generating keypair
-[12:50:11] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:50:11] [Server thread/INFO]: Using epoll channel type
-[12:50:11] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[12:50:11] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[12:50:12] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b69-492be77)
-[12:50:13] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[12:50:13] [Server thread/INFO]: [floodgate] Took 1,111ms to boot Floodgate
-[12:50:13] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.1.2-SNAPSHOT
-[12:50:14] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[12:50:14] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[12:50:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:50:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:50:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:50:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:50:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:50:14] [Server thread/INFO]: Preparing level "world"
-[12:50:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:50:16] [Server thread/INFO]: Time elapsed: 433 ms
-[12:50:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[12:50:16] [Server thread/INFO]: Time elapsed: 140 ms
-[12:50:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[12:50:16] [Server thread/INFO]: Time elapsed: 196 ms
-[12:50:16] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b69-492be77)
-[12:50:17] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.2-SNAPSHOT
-[12:50:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[12:50:17] [Server thread/INFO]: [Geyser-Spigot] 
-[12:50:17] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.2-SNAPSHOT (git-master-661a9b4)
-[12:50:17] [Server thread/INFO]: [Geyser-Spigot] 
-[12:50:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[12:50:28] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
-[12:50:28] [Server thread/INFO]: [Geyser-Spigot] Done (11.01s)! Run /geyser help for help!
-[12:50:28] [Server thread/INFO]: Running delayed init tasks
-[12:50:28] [Server thread/INFO]: Done (18.405s)! For help, type "help"
-[12:50:28] [Server thread/INFO]: Timings Reset
-[12:50:37] [User Authenticator #0/INFO]: UUID of player EvilHydra is 16bbccae-6c08-3ac4-bd5e-c1a24cd48452
-[12:50:37] [Server thread/INFO]: EvilHydra joined the game
-[12:50:37] [Server thread/INFO]: EvilHydra[/103.185.161.36:53715] logged in with entity id 273 at ([world]-367.69999998807907, 59.0, 912.6999999880791)
-[12:50:44] [Server thread/INFO]: EvilHydra issued server command: /gamemode c
-[12:50:44] [Server thread/INFO]: EvilHydra suffocated in a wall
-[12:51:32] [Server thread/INFO]: EvilHydra issued server command: /locate structure minecraft:village_savanna
-[12:51:32] [Server thread/INFO]: Locating element minecraft:village_savanna took 55 ms
-[12:51:48] [Server thread/INFO]: EvilHydra issued server command: /tp @s -368 90 912
-[12:51:48] [Server thread/INFO]: [EvilHydra: Teleported EvilHydra to -367.500000, 90.000000, 912.500000]
-[12:51:49] [Server thread/INFO]: EvilHydra fell from a high place
-[12:52:07] [Server thread/INFO]: EvilHydra issued server command: /tp @s -368 ~ 912
-[12:52:07] [Server thread/INFO]: [EvilHydra: Teleported EvilHydra to -367.500000, 64.000000, 912.500000]
-[12:52:44] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:56063 tried to connect!
-[12:52:46] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
-[12:52:46] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
-[12:52:46] [Geyser Spigot connection thread-5-3/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
-[12:52:47] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
-[12:52:47] [Server thread/INFO]: .EVILFURY5243 joined the game
-[12:52:47] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 1374 at ([world]106.286865, 64.0, 329.82614)
-[12:52:52] [Server thread/INFO]: EvilHydra issued server command: /tp .EVILFURY5243 EvilHydra
-[12:52:52] [Server thread/INFO]: [EvilHydra: Teleported .EVILFURY5243 to EvilHydra]
-[12:52:52] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -506.7103704750896,-1.0,599.7257838557612
-[12:55:15] [Server thread/INFO]: EvilHydra issued server command: /give .EVILFURY5243 minecraft:iron_ingot 64
-[12:55:15] [Server thread/INFO]: [EvilHydra: Gave 64 [Iron Ingot] to .EVILFURY5243]
-[12:55:53] [Server thread/INFO]: EvilHydra issued server command: /give .EVILFURY5243 minecraft:oak_log 64
-[12:55:53] [Server thread/INFO]: [EvilHydra: Gave 64 [Oak Log] to .EVILFURY5243]
-[12:56:57] [Server thread/INFO]: EvilHydra issued server command: /give .EVILFURY5243 minecraft:oak_wood 64
-[12:56:57] [Server thread/INFO]: [EvilHydra: Gave 64 [Oak Wood] to .EVILFURY5243]
-[12:57:13] [Server thread/INFO]: EvilHydra issued server command: /give .EVILFURY5243 minecraft:water_bucket 2
-[12:57:13] [Server thread/INFO]: [EvilHydra: Gave 2 [Water Bucket] to .EVILFURY5243]
-[12:57:42] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client timed out
-[12:57:42] [Geyser Spigot connection thread-5-3/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
-[12:57:42] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
-[12:57:42] [Server thread/INFO]: .EVILFURY5243 left the game
-[12:58:10] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:49770 tried to connect!
-[12:58:11] [epollEventLoopGroup-3-3/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
-[12:58:11] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
-[12:58:12] [Geyser Spigot connection thread-5-4/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
-[12:58:12] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
-[12:58:12] [Server thread/INFO]: .EVILFURY5243 joined the game
-[12:58:12] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 2314 at ([world]-424.5911, 64.0, 949.94446)
-[13:01:59] [Server thread/INFO]: Stopping the server
-[13:01:59] [Server thread/INFO]: Stopping server
-[13:01:59] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.1.2-SNAPSHOT
-[13:01:59] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[13:01:59] [Server thread/INFO]: [Geyser-Spigot] Kicking 1 player(s)
-[13:01:59] [Server thread/INFO]: [Geyser-Spigot] Kicked all players!
-[13:01:59] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Geyser Proxy shutting down.
-[13:01:59] [Geyser Spigot connection thread-5-4/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
-[13:01:59] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[13:01:59] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b69-492be77)
-[13:01:59] [Server thread/INFO]: Saving players
-[13:01:59] [Server thread/INFO]: EvilHydra lost connection: Server closed
-[13:01:59] [Server thread/INFO]: EvilHydra left the game
-[13:01:59] [Server thread/INFO]: .EVILFURY5243 lost connection: Server closed
-[13:01:59] [Server thread/INFO]: .EVILFURY5243 left the game
-[13:01:59] [WebSocketConnectReadThread-54/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[13:01:59] [Server thread/INFO]: Saving worlds
-[13:01:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:01:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[13:01:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[13:01:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[13:02:01] [Server thread/INFO]: [ChunkHolderManager] Saved 1237 block chunks, 252 entity chunks, 2 poi chunks in world 'world' in 1.39s
-[13:02:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:02:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[13:02:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[13:02:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[13:02:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[13:02:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 29 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[13:02:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:02:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[13:02:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[13:02:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[13:02:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[13:02:01] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
-[13:02:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:02:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[13:02:01] [Server thread/INFO]: Flushing Chunk IO
-[13:02:01] [Server thread/INFO]: Closing Thread Pool
-[13:02:01] [Server thread/INFO]: Closing Server
+[13:05:04] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[13:05:04] [Server thread/INFO]: Default game type: SURVIVAL
+[13:05:04] [Server thread/INFO]: Generating keypair
+[13:05:04] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:05:04] [Server thread/INFO]: Using epoll channel type
+[13:05:04] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:05:04] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[13:05:05] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b69-492be77)
+[13:05:06] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[13:05:06] [Server thread/INFO]: [floodgate] Took 990ms to boot Floodgate
+[13:05:06] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.1.2-SNAPSHOT
+[13:05:07] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[13:05:07] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[13:05:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:05:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:05:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:05:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:05:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:05:07] [Server thread/INFO]: Preparing level "world"
+[13:05:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:05:08] [Server thread/INFO]: Time elapsed: 574 ms
+[13:05:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:05:09] [Server thread/INFO]: Time elapsed: 115 ms
+[13:05:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:05:09] [Server thread/INFO]: Time elapsed: 96 ms
+[13:05:09] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b69-492be77)
+[13:05:10] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.2-SNAPSHOT
+[13:05:10] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[13:05:10] [Server thread/INFO]: [Geyser-Spigot] 
+[13:05:10] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.2-SNAPSHOT (git-master-661a9b4)
+[13:05:10] [Server thread/INFO]: [Geyser-Spigot] 
+[13:05:10] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[13:05:20] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[13:05:20] [Server thread/INFO]: [Geyser-Spigot] Done (9.899s)! Run /geyser help for help!
+[13:05:20] [Server thread/INFO]: Running delayed init tasks
+[13:05:20] [Server thread/INFO]: Done (17.657s)! For help, type "help"
+[13:05:20] [Server thread/INFO]: Timings Reset
+[13:06:33] [User Authenticator #0/INFO]: UUID of player EvilHydra is 16bbccae-6c08-3ac4-bd5e-c1a24cd48452
+[13:06:33] [Server thread/INFO]: EvilHydra joined the game
+[13:06:33] [Server thread/INFO]: EvilHydra[/103.185.161.36:54263] logged in with entity id 142 at ([world]-420.59270826349166, 64.0, 947.766652726021)
+[13:07:07] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:59785 tried to connect!
+[13:07:09] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
+[13:07:09] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
+[13:07:09] [Geyser Spigot connection thread-5-3/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
+[13:07:10] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
+[13:07:10] [Server thread/INFO]: .EVILFURY5243 joined the game
+[13:07:10] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 585 at ([world]-423.58096, 64.0, 947.99994)
+[13:16:25] [Server thread/INFO]: EvilHydra was slain by .EVILFURY5243
+[13:19:18] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client disconnected
+[13:19:18] [Geyser Spigot connection thread-5-3/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
+[13:19:18] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
+[13:19:18] [Server thread/INFO]: .EVILFURY5243 left the game
+[13:47:21] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:44654 tried to connect!
+[13:47:22] [epollEventLoopGroup-3-3/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
+[13:47:22] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
+[13:47:23] [Geyser Spigot connection thread-5-4/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
+[13:47:23] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
+[13:47:23] [Server thread/INFO]: .EVILFURY5243 joined the game
+[13:47:23] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 6318 at ([world]-410.74194, 64.0, 951.1232)
+[13:52:01] [Server thread/INFO]: EvilHydra issued server command: /fill -388 62 930 -354 61 958 minecraft:grass_block
+[13:52:01] [Server thread/INFO]: [EvilHydra: Successfully filled 1958 block(s)]
+[14:00:28] [Server thread/INFO]: .EVILFURY5243 was slain by Iron Golem
+[14:00:57] [Server thread/INFO]: EvilHydra issued server command: /tp .EVILFURY5243 EvilHydra
+[14:00:57] [Server thread/INFO]: [EvilHydra: Teleported .EVILFURY5243 to EvilHydra]
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:00:57] [Server thread/WARN]: .EVILFURY5243 moved too quickly! -444.17470998469804,1.2032800000000066,604.7125544277479
+[14:04:41] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.5:41734 tried to connect!
+[14:04:41] [epollEventLoopGroup-3-4/INFO]: [Geyser-Spigot] Bedrock user with ip: /103.185.161.5 has disconnected for reason Outdated Bedrock client! This server supports the following Bedrock versions: 1.19.80/1.19.81, 1.20.0, 1.20.10
+[14:05:05] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.5:41734 tried to connect!
+[14:05:05] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Bedrock user with ip: /103.185.161.5 has disconnected for reason Outdated Bedrock client! This server supports the following Bedrock versions: 1.19.80/1.19.81, 1.20.0, 1.20.10
+[14:05:50] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client disconnected
+[14:05:50] [Geyser Spigot connection thread-5-4/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
+[14:05:50] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
+[14:05:50] [Server thread/INFO]: .EVILFURY5243 left the game
+[14:07:57] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:44703 tried to connect!
+[14:07:58] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
+[14:07:58] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
+[14:07:59] [Geyser Spigot connection thread-5-1/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
+[14:07:59] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
+[14:07:59] [Server thread/INFO]: .EVILFURY5243 joined the game
+[14:07:59] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 10004 at ([world]-406.97742, 63.5625, 931.0867)
+[14:10:09] [Server thread/INFO]: EvilHydra issued server command: /fill -354 63 960 -375 67 976 minecraft:air
+[14:10:09] [Server thread/INFO]: [EvilHydra: Successfully filled 1242 block(s)]
+[14:11:44] [Server thread/INFO]: EvilHydra issued server command: /fill -396 63 950 -376 65 976
+[14:12:00] [Server thread/INFO]: EvilHydra issued server command: /fill -396 63 950 -376 63 974 air
+[14:12:00] [Server thread/INFO]: [EvilHydra: Successfully filled 484 block(s)]
+[14:17:47] [Server thread/INFO]: .EVILFURY5243 has made the advancement [A Seedy Place]
+[14:19:06] [Server thread/INFO]: EvilHydra has made the advancement [A Seedy Place]
+[14:21:47] [Server thread/INFO]: EvilHydra has made the advancement [Acquire Hardware]
+[14:27:11] [Server thread/INFO]: EvilHydra issued server command: /fill -387 64 963 -376 66 976 air
+[14:27:11] [Server thread/INFO]: [EvilHydra: Successfully filled 305 block(s)]
+[14:28:35] [Server thread/INFO]: EvilHydra issued server command: /fill -383 62 958 -395 62 974 minecraft:grass_block
+[14:28:35] [Server thread/INFO]: [EvilHydra: Successfully filled 105 block(s)]
+[14:36:08] [Server thread/INFO]: EvilHydra issued server command: /fill -397 65 990 -430 56 1008 minecraft:grass_block
+[14:36:09] [Server thread/INFO]: [EvilHydra: Successfully filled 6286 block(s)]
+[14:39:22] [Server thread/INFO]: EvilHydra issued server command: /fill -431 65 983 -442 62 1007 minecraft:dirt
+[14:39:22] [Server thread/INFO]: [EvilHydra: Successfully filled 1157 block(s)]
+[14:41:45] [Server thread/INFO]: EvilHydra issued server command: /fill -397 65 975 -376 63 986 dirt
+[14:41:45] [Server thread/INFO]: [EvilHydra: Successfully filled 678 block(s)]
+[14:44:58] [Server thread/INFO]: EvilHydra issued server command: /fill -397 65 987 -380 61 1008 minecraft:grass_block
+[14:44:58] [Server thread/INFO]: [EvilHydra: Successfully filled 1794 block(s)]
+[14:50:04] [Server thread/INFO]: EvilHydra issued server command: /setworldspawn ~ ~ ~
+[14:50:04] [Server thread/INFO]: [EvilHydra: Set the world spawn point to -414, 66, 958 [0.0]]
+[14:50:31] [Geyser Spigot connection thread-5-1/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
+[14:50:31] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client disconnected
+[14:50:31] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
+[14:50:31] [Server thread/INFO]: .EVILFURY5243 left the game
+[14:50:45] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /103.185.161.36:44703 tried to connect!
+[14:50:45] [epollEventLoopGroup-3-3/INFO]: [Geyser-Spigot] Player connected with username EVILFURY5243
+[14:50:45] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] EVILFURY5243 (logged in as: EVILFURY5243) has connected to the Java server
+[14:50:46] [Geyser Spigot connection thread-5-2/INFO]: UUID of player .EVILFURY5243 is 00000000-0000-0000-0009-01f413dcfde4
+[14:50:46] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 joined (UUID: 00000000-0000-0000-0009-01f413dcfde4)
+[14:50:46] [Server thread/INFO]: .EVILFURY5243 joined the game
+[14:50:46] [Server thread/INFO]: .EVILFURY5243[/103.185.161.36:0] logged in with entity id 16732 at ([world]-407.46014, 64.0, 953.7322)
+[14:51:54] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] EVILFURY5243 has disconnected from the Java server because of Bedrock client disconnected
+[14:51:54] [Geyser Spigot connection thread-5-2/INFO]: [floodgate] Floodgate player logged in as .EVILFURY5243 disconnected
+[14:51:54] [Server thread/INFO]: .EVILFURY5243 lost connection: Disconnected
+[14:51:54] [Server thread/INFO]: .EVILFURY5243 left the game
+[14:52:04] [Server thread/INFO]: EvilHydra lost connection: Disconnected
+[14:52:04] [Server thread/INFO]: EvilHydra left the game
+[14:52:36] [Server thread/INFO]: Stopping the server
+[14:52:36] [Server thread/INFO]: Stopping server
+[14:52:36] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.1.2-SNAPSHOT
+[14:52:36] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[14:52:36] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[14:52:36] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b69-492be77)
+[14:52:36] [Server thread/INFO]: Saving players
+[14:52:36] [Server thread/INFO]: Saving worlds
+[14:52:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:52:36] [WebSocketConnectReadThread-55/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[14:52:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[14:52:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[14:52:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[14:52:37] [Server thread/INFO]: [ChunkHolderManager] Saved 991 block chunks, 156 entity chunks, 1 poi chunks in world 'world' in 0.88s
+[14:52:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:52:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:52:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[14:52:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[14:52:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[14:52:37] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 29 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[14:52:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:52:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:52:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[14:52:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[14:52:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[14:52:37] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[14:52:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:52:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:52:37] [Server thread/INFO]: Flushing Chunk IO
+[14:52:37] [Server thread/INFO]: Closing Thread Pool
+[14:52:37] [Server thread/INFO]: Closing Server
